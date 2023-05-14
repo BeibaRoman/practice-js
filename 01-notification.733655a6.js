@@ -1,0 +1,2 @@
+let i=null;const o={notificationEl:document.querySelector(".js-alert")};function t(){o.notificationEl.classList.remove("is-visible")}o.notificationEl.addEventListener("click",(function(){console.log("Прибираємо нагадування та видаляємо сеттаймаут"),t(),clearTimeout(i)})),o.notificationEl.classList.add("is-visible"),i=setTimeout((()=>{console.log("Закриваємо нагадування черз 3 секунди!"),t()}),3e3);
+//# sourceMappingURL=01-notification.733655a6.js.map

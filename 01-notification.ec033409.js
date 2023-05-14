@@ -1,0 +1,2 @@
+!function(){var i=null,o={notificationEl:document.querySelector(".js-alert")};function n(){o.notificationEl.classList.remove("is-visible")}o.notificationEl.addEventListener("click",(function(){console.log("Прибираємо нагадування та видаляємо сеттаймаут"),n(),clearTimeout(i)})),o.notificationEl.classList.add("is-visible"),i=setTimeout((function(){console.log("Закриваємо нагадування черз 3 секунди!"),n()}),3e3)}();
+//# sourceMappingURL=01-notification.ec033409.js.map
