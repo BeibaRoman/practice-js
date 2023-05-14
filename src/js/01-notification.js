@@ -3,7 +3,7 @@ import '../css/common.css';
 let timerId = null;
 const NOTIFICATION_DELAY = 3000;
 
-refs = {
+const refs = {
   notificationEl: document.querySelector('.js-alert'),
 };
 
